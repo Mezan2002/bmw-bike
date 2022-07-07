@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  padding: 20px 10%;
+  background-image: url(../images/BMW1.png);
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 160px;
+  cursor: pointer;
+}
+nav .btn {
+  text-decoration: none;
+  padding: 15px 50px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #333;
+}
+.content {
+  margin-top: 10%;
+}
+.content h2 {
+  color: red;
+  font-size: 34px;
+}
+.content h1 {
+  color: #222;
+  font-size: 100px;
+  margin-top: -25px;
+}
+.content p {
+  max-width: 350px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #555;
+}
+.content h3 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.bike-color {
+  display: flex;
+  margin-left: 22px;
+}
+.bike-color div {
+  background: #333;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.bike-color #red-white {
+  background: linear-gradient(red, white);
+}
+.bike-color #blue-white {
+  background: linear-gradient(blue, white);
+}
+.bike-color #black-white {
+  background: linear-gradient(black, white);
+}
