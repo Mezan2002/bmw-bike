@@ -21,6 +21,7 @@ nav {
   justify-content: space-between;
 }
 nav .logo {
+  padding-top: 5px;
   width: 160px;
   cursor: pointer;
 }
