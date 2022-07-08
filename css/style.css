@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
-
+/* header start */
 .header {
   width: 100%;
   height: 100vh;
@@ -75,3 +75,4 @@ nav .btn {
 .bike-color #black-white {
   background: linear-gradient(black, white);
 }
+/* header end */
