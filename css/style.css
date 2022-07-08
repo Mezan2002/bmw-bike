@@ -163,3 +163,11 @@ nav .btn {
   border: none;
 }
 /* customized end */
+/* footer start  */
+footer {
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+/* footer end  */
