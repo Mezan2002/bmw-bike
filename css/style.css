@@ -76,3 +76,28 @@ nav .btn {
   background: linear-gradient(black, white);
 }
 /* header end */
+/* blog start */
+.discription {
+  margin-top: 100px;
+  padding: 80px 10% 200px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-txt h1 {
+  font-size: 80px;
+  line-height: 90px;
+}
+.blog-txt h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+.blog-txt p {
+  margin-top: 60px;
+  max-width: 450px;
+}
+.blog-img img {
+  margin: 90px 50px 0 0;
+  width: 100%;
+}
+/* blog end */
